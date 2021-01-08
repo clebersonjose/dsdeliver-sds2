@@ -1,0 +1,26 @@
+import "./styles.css";
+
+export default function StepsHeader() {
+  return (
+    <header className="orders-steps-container">
+      <div className="orders-steps-content">
+        <h1 className="steps-title">
+          Siga as <br />
+          Etapas <br />
+        </h1>
+
+        <ul className="steps-items">
+          <li>
+            <span className="steps-number">1</span>
+            Selecione os produtos e localizações.
+          </li>
+
+          <li>
+            <span className="steps-number">2</span>
+            Depois clique em <strong>“ENVIAR PEDIDO”</strong>
+          </li>
+        </ul>
+      </div>
+    </header>
+  );
+}
