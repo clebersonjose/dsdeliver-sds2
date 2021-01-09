@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <nav className="main-navbar">
       <Logo />
-      <Link to="home" className="logo-text">
+      <Link to="/" className="logo-text">
         DS Delivery
       </Link>
     </nav>

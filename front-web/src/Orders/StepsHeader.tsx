@@ -1,5 +1,3 @@
-import "./styles.css";
-
 export default function StepsHeader() {
   return (
     <header className="orders-steps-container">
