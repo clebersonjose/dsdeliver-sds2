@@ -209,6 +209,7 @@
   letter-spacing: -0.015em;
   display: block;
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 .amount-selected {
@@ -226,6 +227,7 @@
   letter-spacing: -0.015em;
   color: #FFF;
   display: block;
+  text-transform: uppercase;
 }
 
 .order-summary-price {
@@ -250,6 +252,7 @@
   color: var(--primary-color);
   border: 0;
   cursor: pointer;
+  text-transform: uppercase;
 }
 
 .order-summary-make-order:focus {
